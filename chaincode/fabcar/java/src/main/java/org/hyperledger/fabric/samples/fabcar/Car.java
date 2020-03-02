@@ -73,7 +73,6 @@ public final class Car {
 
     @Override
     public String toString() {
-        return this.getClass().getSimpleName() + "@" + Integer.toHexString(hashCode()) + " [make=" + make + ", model="
-                + model + ", color=" + color + ", owner=" + owner + "]";
+        return this.getClass().getSimpleName() + "@" + Integer.toHexString(hashCode()) + " [make teste conseguir!!=" + make + "]";
     }
 }
